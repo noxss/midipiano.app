@@ -9,7 +9,7 @@
 
 ## Exercises
 
-The app's built-in exercises as MusicXML files, in [`exercises/`](exercises/), with an index in `exercises/INDEX.md`. They are the exact scores the app shows. Open one in a notation editor, or give it to your AI together with the prompt the app's Import tab builds for you, and make your own version: transposed, longer, simpler. Then import the result from the Import tab.
+The app's built-in exercises as MusicXML files, in [`exercises/`](exercises/), with an index by level. They are the exact scores the app shows. Open one in a notation editor, or give it to your AI together with the prompt the app's Import tab builds for you, and make your own version: transposed, longer, simpler. Then import the result from the Import tab.
 
 ## Discussions
 
