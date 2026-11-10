@@ -1,0 +1,59 @@
+title: "[Keyboard] "
+labels: ["midi"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One keyboard per post, with the model in the title, so people can find it later.
+  - type: input
+    id: model
+    attributes:
+      label: Keyboard model
+      placeholder: Casio CT-S1, Yamaha P-145, PopuPiano
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection
+      options:
+        - USB
+        - Bluetooth
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Device and browser
+      placeholder: Windows 11 and Chrome, Android tablet and Chrome, iPad and Web MIDI Browser
+    validations:
+      required: true
+  - type: dropdown
+    id: works
+    attributes:
+      label: Do the notes arrive?
+      options:
+        - "Yes"
+        - Only sometimes
+        - "No"
+    validations:
+      required: true
+  - type: dropdown
+    id: lights
+    attributes:
+      label: Do the key lights work?
+      options:
+        - The keyboard has no lights
+        - "Yes"
+        - "No"
+        - I did not try
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Latency, settings you had to change, what did not work.
+    validations:
+      required: false

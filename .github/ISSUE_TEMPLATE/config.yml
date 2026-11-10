@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or help
+    url: https://github.com/noxss/midipiano.app/discussions/categories/q-a
+    about: Something does not work for you and you are not sure it is a bug. Ask here first.
+  - name: Idea or feature request
+    url: https://github.com/noxss/midipiano.app/discussions/categories/ideas
+    about: Things you would like the app to do.
+  - name: Keyboard compatibility report
+    url: https://github.com/noxss/midipiano.app/discussions/categories/midi-keyboards-and-lights
+    about: Tell others whether your MIDI keyboard and its lights work.

@@ -1,0 +1,77 @@
+name: Bug report
+description: Something in the app is broken or wrong.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Most bugs depend on the device, the browser and the keyboard, so please fill in those fields. Do not paste personal data.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what the app did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Press ...
+    validations:
+      required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - PC or Mac
+        - Android phone
+        - Android tablet
+        - iPad or iPhone
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: software
+    attributes:
+      label: Browser
+      description: Browser name and version.
+      placeholder: Chrome 130, Firefox 132, Safari 18
+    validations:
+      required: true
+  - type: input
+    id: keyboard
+    attributes:
+      label: MIDI keyboard and connection
+      description: Model and whether it is connected by USB or Bluetooth. Write "none" if the bug has nothing to do with the keyboard.
+      placeholder: Roland FP-10, USB
+    validations:
+      required: true
+  - type: input
+    id: score
+    attributes:
+      label: Score
+      description: The built-in exercise (its name) or "imported file". If it is an imported file and you can share it, attach it below.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or files
+      description: Drag images or files here.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before sending
+      options:
+        - label: I searched the existing issues and did not find this one.
+          required: true
+        - label: This report contains no personal data.
+          required: true

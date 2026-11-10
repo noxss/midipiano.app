@@ -1,0 +1,44 @@
+title: "[Score] "
+labels: ["score"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share a score or an exercise. Drag the `.musicxml` or `.mxl` file into the description box, GitHub attaches it. Check that it imports in midipiano.app before posting.
+  - type: textarea
+    id: description
+    attributes:
+      label: What is it?
+      description: The piece or exercise, what it works on, anything the player should know. Drag the file here.
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+  - type: dropdown
+    id: how
+    attributes:
+      label: How was it made?
+      options:
+        - With an AI, from the app's prompt
+        - In a notation editor (MuseScore, Dorico, Finale, Sibelius or similar)
+        - From one of the app's exercises
+        - Other
+    validations:
+      required: false
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Sharing
+      options:
+        - label: This file is my own work or public domain music. It is not a copyrighted song, arrangement, edition or method book page.
+          required: true
+        - label: Others may use it under CC BY 4.0 unless I say otherwise in the post.
+          required: true

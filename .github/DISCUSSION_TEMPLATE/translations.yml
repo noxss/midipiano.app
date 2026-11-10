@@ -1,0 +1,29 @@
+title: "[Translation] "
+labels: ["translation"]
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Language
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app
+      placeholder: Practice tab, the button under the score
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed text
+      description: And why, if it is not obvious.
+    validations:
+      required: true
