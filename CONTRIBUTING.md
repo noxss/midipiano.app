@@ -11,10 +11,6 @@ Contributing here means sharing what you know or what you made.
 
 Files that many people find useful may be added to a `community/` folder in this repository, with your name and a link to your post. We will ask you first.
 
-## Report how your keyboard works
-
-If it does not work, ask in [Q&A](../../discussions/categories/q-a) with the model, the connection (USB or Bluetooth), the device and browser, whether notes arrive and whether the key lights work. If it works, say so in [General](../../discussions/categories/general) with the model in the title, so the next person with that keyboard finds it.
-
 ## Fix a translation
 
 Open a discussion in [Translations](../../discussions/categories/translations) with the language, where the text appears in the app, the current text and the text you propose.
