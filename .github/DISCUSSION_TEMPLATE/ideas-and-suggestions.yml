@@ -1,5 +1,9 @@
 labels: ["idea"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Features, changes, or an exercise you miss in the catalog. For an exercise, say the level and what it should train.
   - type: textarea
     id: goal
     attributes:

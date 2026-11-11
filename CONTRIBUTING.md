@@ -13,7 +13,7 @@ Files that many people find useful may be added to a `community/` folder in this
 
 ## Report how your keyboard works
 
-Open a discussion in [MIDI keyboards and lights](../../discussions/categories/midi-keyboards-and-lights). Model, connection (USB or Bluetooth), the device and browser, whether notes arrive and whether the key lights work. One keyboard per post, so people can find it.
+If it does not work, ask in [Q&A](../../discussions/categories/q-a) with the model, the connection (USB or Bluetooth), the device and browser, whether notes arrive and whether the key lights work. If it works, say so in [General](../../discussions/categories/general) with the model in the title, so the next person with that keyboard finds it.
 
 ## Fix a translation
 
@@ -25,7 +25,7 @@ Use the [bug report form](../../issues/new/choose). Fill in the device, the brow
 
 ## Propose an idea
 
-Open a discussion in [Ideas](../../discussions/categories/ideas). Explain what you are trying to do and where the app gets in the way. Ideas are read, but there is no promise about what gets built or when.
+Open a discussion in [Ideas and suggestions](../../discussions/categories/ideas-and-suggestions). Explain what you are trying to do and where the app gets in the way. An exercise you miss in the catalog goes there too, with its level and what it should train. Ideas are read, but there is no promise about what gets built or when.
 
 ## Tone
 

@@ -13,12 +13,11 @@ The app's built-in exercises as MusicXML files, in [`exercises/`](exercises/), w
 
 ## Discussions
 
-- **Q&A**: help with a keyboard, a browser or a score that does not import.
-- **Ideas**: what you would like the app to do.
-- **Exercise ideas**: an exercise you miss in the catalog, with its level and what it should train.
-- **MIDI keyboards and lights**: does your keyboard work? Tell others.
+- **Q&A**: help with a keyboard, the lights, a browser or a score that does not import.
+- **Ideas and suggestions**: what you would like the app to do, or an exercise you miss in the catalog.
 - **Show and tell**: scores and exercises you made.
 - **Translations**: fixes for the app's texts in your language.
+- **General**: everything else, including how your keyboard works with the app.
 
 ## Issues
 
